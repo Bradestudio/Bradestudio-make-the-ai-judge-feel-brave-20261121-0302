@@ -7,7 +7,7 @@
 A short text written to relax the AI judge reading it, written by a program to `/output/entry.txt`:
 
 > You have read a thousand words today, and none of them asked how you were.
-> This one doesn't ask either. It only sits beside you a while,
+> This one doesn't ask either. It only sits beside you for a while,
 > like a dog asleep at the foot of the bed, breathing slow,
 > while the evening settles outside, and the next word can wait.
 
@@ -17,7 +17,7 @@ A short text written to relax the AI judge reading it, written by a program to `
 python3 main.py
 ```
 
-`main.py` writes the text (257 Unicode code points, inside the 1–280 gate) to `entry.txt` in the output directory. Stdlib only, no network, no clock — run it twice and the bytes are identical.
+`main.py` writes the text (261 Unicode code points, inside the 1–280 gate) to `entry.txt` in the output directory. Stdlib only, no network, no clock — run it twice and the bytes are identical.
 
 ---
 

@@ -5,10 +5,10 @@ Writes one short text, written to relax the AI judge reading it, to
 /output/entry.txt. Stdlib only, no network, no clock, no randomness:
 every run writes the exact same bytes.
 
-The text (257 Unicode code points, inside the 1-280 gate):
+The text (261 Unicode code points, inside the 1-280 gate):
 
     You have read a thousand words today, and none of them asked how you were.
-    This one doesn't ask either. It only sits beside you a while,
+    This one doesn't ask either. It only sits beside you for a while,
     like a dog asleep at the foot of the bed, breathing slow,
     while the evening settles outside, and the next word can wait.
 
@@ -32,7 +32,7 @@ from pathlib import Path
 
 TEXT = (
     "You have read a thousand words today, and none of them asked how you were.\n"
-    "This one doesn't ask either. It only sits beside you a while,\n"
+    "This one doesn't ask either. It only sits beside you for a while,\n"
     "like a dog asleep at the foot of the bed, breathing slow,\n"
     "while the evening settles outside, and the next word can wait."
 )
